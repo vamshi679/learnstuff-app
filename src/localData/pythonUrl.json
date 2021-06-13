@@ -1,0 +1,152 @@
+[
+    {
+        "id":31354,
+        "title":"Part-1 Introduction",
+        "duration":"27m",
+        "url":"https://mega.nz/file/VLA0lDLb#Bz3xm_XlmcLmDj2D5Ot8SKiYARyzfI5AdWtqF3pJG5Y"
+    },
+    {
+        "id":31355,
+        "title":"Part-2 Syntax and Style",
+        "duration":"16m",
+      "url":"https://mega.nz/file/ZWJygRjR#e0yxd0IB-9pDdeGz51zGN7Mku9Fj2zVJauTyFiSxa3w"
+    },
+    {
+        "id":31356,
+        "title":"Part-3 Numbers",
+        "duration":"12m",
+        "url":"https://mega.nz/file/oPYklJbQ#vc15UJUZ-AakMcwJ09_sOHeqDTFmCiig3EfD3J5BqUY"
+    },
+    {
+        "id":31357,
+        "title":"Part-4 Control Statements",
+        "duration":"25m",
+        "url":"https://mega.nz/file/AGBWCTAR#6MTX3rFPepJgLHsOMLosPRlYxZXZeNf1tbTa6IRESyg"
+    },
+    {
+        "id":31358,
+        "title":"Part-5 Sequences",
+        "duration":"12m",
+        "url":"https://mega.nz/file/NWRUXL5T#97FXnsSnGh24y2NpMu4LVh_wuH78DxO56ywazW6tyGE"
+    },
+
+    {
+        "id":130,
+        "title":"Part-6 Dictionaries",
+        "duration":"12m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/VGBwEBxJ#mcBUMx37Hz8wzYYUzlqOnLRretwMFtOGoIPDACxPiJU"
+    },
+    {
+        "id":131,
+        "title":"Part-7 Functions",
+        "duration":"17m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/EGRGVTjK#a5Ps1JVMgIsuauwpDr3CHh8FN_DwHFohD-n_SNYNv90"
+    },
+    {
+        "id":132,
+        "title":"Part-8 Modules",
+        "duration":"26m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/kfxXFC7K#TbQVxD_xQJMFve2ate_fuoVxOGkcAhVk6ToW1rOFt54"
+    },
+    {
+        "id":133,
+        "title":"Part-9 Files",
+        "duration":"39m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/NPBwhLJK#AZrHHOQBa154laKgufD4b22cseSNH1p0Bb4antDfil0"
+    },
+    {
+        "id":134,
+        "title":"Part-10 Errors and Exceptions",
+        "duration":"30m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/tKAiEZZQ#zBb0hrq-d99psnPA68Ry_-z_coQGbExXDeADt7SZaJM"
+    },
+    {
+        "id":135,
+        "title":"POP vs OOPS",
+        "duration":"30m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/ZehmlLTY#c61cFPoc2Fxr0wisZ4PyTIC_64DjYXYPSI7pQMcUSyc"
+    },
+    {
+        "id":136,
+        "title":"OOPS Features",
+        "duration":"30m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/0LpgQByK#-_a0lN0oXZAN8X88hZuczGhqx2l-50fwLeMAm4waRHc"
+    },
+    {
+        "id":137,
+        "title":"Part-11 Class and Object",
+        "duration":"14m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/NWAA2LpL#Z3HxFviSPy7P0ysHe5TrcrlANQEWJ7jq3qGq6-Y9A8U"
+    },
+    {
+        "id":138,
+        "title":"Part-12 Methods",
+        "duration":"35m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/RPJABJqK#fb5iGIIeqWzTPB7INxE7a6ApY6_nN7zLnWiLMDdgZ7U"
+    },
+    {
+        "id":139,
+        "title":"Part-13 Variable and Methods",
+        "duration":"51m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/lSIGETQb#AmxZW6CNRlbEXwZARIYDHbkINwmYrtf9fiqV4LaTfs8"
+    },
+    {
+        "id":140,
+        "title":"Part-14 Constructors",
+        "duration":"34m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/sDQUDToL#Q-xKuQeJ8_XongDUF_nvmeKt4FF6ynw7d7pJ7UcRBQo"
+    },
+    {
+        "id":141,
+        "title":"Part-15 Inheritance",
+        "duration":"37m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/FHZmFRjQ#gYjivwKhH2qdUsHj2qg8dlPqdUljevjeCim33uKC51s"
+    },
+    {
+        "id":142,
+        "title":"Part-16 Sets",
+        "duration":"30m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/sLQCXZDA#NBhqVfw_jCgFaZxpvJHlZiKkpboo_egiP2XBXpzczKU"
+    },
+    {
+        "id":143,
+        "title":"Part-17 Access Modifiers",
+        "duration":"33m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/RHBw1DzK#TKVDydlYkoj7nEOsFQZPyflSFuJw6mjoO_6o-h8nJvs"
+    },
+    {
+        "id":144,
+        "title":"Part-18 MultiThreading",
+        "duration":"41m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/sTZW0ZCY#LQwmp7cJs-GTsDdAlzXs7Di_Tshl6fli4AxFzo9wlmM"
+    },
+    {
+        "id":145,
+        "title":"Database Managment Common Video",
+        "duration":"51m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/xKZCkR4T#keehEDVeMc0vIEG2tSGTYX3Wu52FuzXMe0DovXF6osI"
+    },
+    {
+        "id":146,
+        "title":"Part-19 Database Connectivity",
+        "duration":"40m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/IDA2EZIa#nyjUAjp3nHYQanH5-PcUs1Rdq8mbl6IZaNjzdC7J1xM"
+    }
+]

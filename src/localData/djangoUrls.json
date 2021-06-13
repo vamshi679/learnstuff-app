@@ -1,0 +1,185 @@
+[
+    {
+        "id":31349,
+        "title":"Part-1 Python Web development with django",
+        "duration":"15m",
+        "url":"https://mega.nz/file/wWQw2DbR#h6kO3X4xFmPHB1v-Ts8He83ZH80FwOFzbmMMzPXmpk0"
+    },
+    {
+        "id":31350,
+        "title":"Part-2 Requirements",
+        "duration":"25m",
+        "url":"https://mega.nz/file/oXAA3RCD#W3KBGl6ej4jmdwENVII9zdEpegvopWAUm9ibirh3cj0"
+    },
+    {
+        "id":31351,
+        "title":"Part-3 MVT pattern",
+        "duration":"19m",
+        "url":"https://mega.nz/file/4eBWHTqJ#snrvttHGejwRGNWnNwpyvhmLbC9EP5QJAfFSMGumdXg"
+    },
+    {
+        "id":31352,
+        "title":"Part-4 Create and run first django project",
+        "duration":"24m",
+        "url":"https://mega.nz/file/xPJmETbA#8Zywe1fGvoY1Mt2U0LhqoDDr_qVeJNvJJweKHq12UN8"
+    },
+    {
+        "id":31353,
+        "title":"Part-5 Creating Applications and View under django",
+        "duration":"38m",
+        "url":"https://mega.nz/file/pWZg3TwJ#pNds_Z9aNzgI5R-1se9oPImIS_KMu6cFbBwalw5E304"
+    },
+
+    {
+        "id":144,
+        "title":"Part-6 Working with multiple application",
+        "duration":"19m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/gXZARJga#iyVBcRrZQYOsBuDwvwUh4fGVTlNs-qPkVG2yStisoQA"
+    },
+    {
+        "id":145,
+        "title":"Part-7 Application level url mapping",
+        "duration":"23m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/FDQg2DIS#BAgZo8uAz2hf69RpjX3tGm-RRfiNSgsW0LcWv2Pj83I"
+    },
+    {
+        "id":146,
+        "title":"Part-8 Creating Templates",
+        "duration":"36m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/5fAWAb5Z#jOsPhTXnW9tiosE90U0wjB9_SLOvGB1nl8KeSKlz-6U"
+    },
+    {
+        "id":147,
+        "title":"Part-9 Sending data from view to template",
+        "duration":"21m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/FORSwD7b#rd-86tJ2ES8wjYF087JRkVBdwl8YVZ5o__BkBCNtkjY"
+    },
+    {
+        "id":148,
+        "title":"Part-10 Inserting Images into templates",
+        "duration":"17m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/9GRWlJDQ#scbwx_600pN2k9TUUwLyqF0-k7rbWAOsOqMakkcBBE4"
+    },
+    {
+        "id":149,
+        "title":"Part-11 Linking Stylesheets with templates",
+        "duration":"10m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/obQwyTJZ#_RKLSGinhMKjRjSvAzZ4OBmDIYxGPk3A6vpkyRhlzPI"
+    },
+    {
+        "id":150,
+        "title":"Part-12 setting Homepage with links",
+        "duration":"35m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/0OISkLAD#peHrziLu9NXjZfqYxghzEPO6Hi33se3gObtx4jS8p6I"
+    },
+    {
+        "id":151,
+        "title":"Database managment common video",
+        "duration":"51m",
+        "thumbnail":"",
+        "url":"https://mega.nz/file/xKZCkR4T#keehEDVeMc0vIEG2tSGTYX3Wu52FuzXMe0DovXF6osI"
+    },
+    {
+        "id":152,
+        "title":"part-13 Introduction to models",
+        "duration":"21m",
+        "url":"https://mega.nz/file/0DYi1J4K#wXoq2_0ibystgBSlzGM2SbBjrSQXVVel_36Vu9SChR0"
+    },
+    {
+        "id":153,
+        "title":"part-14 Ceating models",
+        "duration":"39m",
+        "url":"https://mega.nz/file/YXZklJCY#7VPfrQQbIvQgVsaVKplB4xp2qHD9eWgu6B8azJBUsDY"
+    },
+    {
+        "id":154,
+        "title":"part-15 Using models in views",
+        "duration":"38m",
+        "url":"https://mega.nz/file/xGB2wTyI#0ai5p6K6P8RLDo07E95KR6OKWydepsS7YzdgDARVrUg"
+    },
+    {
+        "id":155,
+        "title":"part-16 MySQL Connectivity",
+        "duration":"25m",
+        "url":"https://mega.nz/file/BPBQnLoC#xcTW5naq_jczFBHzr2OFGa99Twh4a8RbqDxV4gqRbH8"
+    },
+    {
+        "id":156,
+        "title":"part-17 Django Admin UI",
+        "duration":"17m",
+        "url":"https://mega.nz/file/0LJECTCI#kjNHzQltImta2VhhMFT0yxsD3FzG66CLgrSBRTufCHo"
+    },
+    {
+        "id":157,
+        "title":"part-18 Django orm(1)",
+        "duration":"1h 03m",
+        "url":"https://mega.nz/file/wOAk1TxB#81h9mAKuAr_vCgPiEOkZmotnXhI7GU2o6jwWQ697878"
+    },
+    {
+        "id":158,
+        "title":"part-19 Django orm(2)",
+        "duration":"39m",
+        "url":"https://mega.nz/file/ULJCjBpY#hbDducmwA-0EP8hqTRaeED_RtGyBxqLWEn_1Pnqpy5E"
+    },
+    {
+        "id":159,
+        "title":"part-20 ModalForm",
+        "duration":"29m",
+        "url":"https://mega.nz/file/lGQkjJrD#QBO_8SfPaMyJqBKjwDAGTpPMgkn9lI_bmMOP6FPx2_c"
+    },
+    {
+        "id":160,
+        "title":"part-21 Saving Form data into database",
+        "duration":"19m",
+        "url":"https://mega.nz/file/wTIkBToL#-gZDSabBM7-tuL4XdF6jVyWUIN_W_qJCTcX9TykCOlA"
+    },
+    {
+        "id":161,
+        "title":"part-22 Creating HTML forms",
+        "duration":"23m",
+        "url":"https://mega.nz/file/tLAWVR5Z#5SohLrAJ-u2t1nKvLtx9A7x5BXp5lG2cMWidvzqsHT8"
+    },
+    {
+        "id":162,
+        "title":"part-23 CRUD Operation",
+        "duration":"41m",
+        "url":"https://mega.nz/file/kCJmBTJQ#lojG6SziNt1I2-LG1UJKXTwvWv8_QESXInNWMml_S-k"
+    },
+    {
+        "id":163,
+        "title":"part-24 Class based views",
+        "duration":"14m",
+        "url":"https://mega.nz/file/oeIGSLrL#fG_45GKZh0ULRTFQTW7RzF1f8RqG-tFfycwN1zOxOaA"
+    },
+    {
+        "id":164,
+        "title":"part-25 CRUD Operations (Using class based views)",
+        "duration":"1h 22m",
+        "url":"https://mega.nz/file/cHQizRra#x2uBifNLmS-g_i3LVTrs3UoeXwu005lbyqBQaoNGJCs"
+    },
+    {
+        "id":165,
+        "title":"part-26 Authentication",
+        "duration":"36m",
+        "url":"https://mega.nz/file/9DAyTTKa#IdCfUIsqkyWBloEmcWKrjrgDKyon1IrZ_fYahIW_FXA"
+    },
+    {
+        "id":166,
+        "title":"part-27 Authorization",
+        "duration":"23m",
+        "url":"https://mega.nz/file/lSJwAJgD#P85KwDDHkbzaSK4NeQcu94girFFG6_G60aJ9lTnrGGA"
+    },
+    {
+        "id":167,
+        "title":"part-28 Session Management",
+        "duration":"1h 31m",
+        "url":"https://mega.nz/file/AeRCxLQB#mXfqgb-jo_Ovft-sN9jM72FfBZocH1VEXepltr1R6ow"
+    }
+]

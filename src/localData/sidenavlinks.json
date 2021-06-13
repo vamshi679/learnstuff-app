@@ -1,0 +1,44 @@
+[
+   {
+      "id":3113513,
+      "title":"Home",
+      "icon":"home",
+      "route":"/"
+   },
+   {
+      "id":3113514,
+      "title":"Java",
+      "icon":"article",
+      "route":"/java"
+   },
+   {
+      "id":311518,
+      "title":"Advanced Java",
+      "icon":"article",
+      "route":"/advjava"
+   },
+   {
+      "id":3113515,
+      "title":"Python",
+      "icon":"article",
+      "route":"/python"
+   },
+   {
+      "id":3113516,
+      "title":"Django",
+      "icon":"article",
+      "route":"/django"
+   },
+   {
+      "id":3113519,
+      "title":"Javascript",
+      "icon":"article",
+      "route":"/js"
+   },
+   {
+      "id":3113517,
+      "title":"CSS",
+      "icon":"article",
+      "route":"/css"
+   }
+]

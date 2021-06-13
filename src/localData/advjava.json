@@ -1,0 +1,182 @@
+[
+   {
+      "id": 31354,
+      "title": "Part-1 Introduction",
+      "duration": "5m",
+      "url": "https://mega.nz/file/UDIWDBpS#_HQ2yVqHANTX5nkbaISof3pnJebUOih13kaSnqJk4Ew"
+   },
+   {
+      "id": 31355,
+      "title": "Part-2 JDBC",
+      "duration": "15m",
+      "url": "https://mega.nz/file/BeJw1JIK#uC76RUg0wlrW8vIC6xLpIMdgTmeogI5ys_dka0TFKFw"
+   },
+   {
+      "id": 31356,
+      "title": "Part-3 JAVA-Mysql",
+      "duration": "1h 8m",
+      "url": "https://mega.nz/file/dHIE0DbL#mcsyA2ZgsVlaAh4SsbfhLpZRP09SGaNx_N7WtAbtajs"
+   },
+   {
+      "id": 31357,
+      "title": "Part-4 JAVA-Oracle connectivity",
+      "duration": "18m",
+      "url": "https://mega.nz/file/NfQgGJqJ#SR1-dwFK8gj8f0qfIS73BKEUz2AHuPrQPusw4RJsqJA"
+   },
+   {
+      "id": 31358,
+      "title": "Part-5 Retrieving data from db",
+      "duration": "12m",
+      "url": "https://mega.nz/file/pKYCmRSR#D_cDziAC2AJh_nQt9RsNero7OsBkxzVXmwO-UCGEVnc"
+   },
+   {
+      "id": 3135432,
+      "title": "part-6 sql Injection",
+      "duration": "39m",
+      "url": "https://mega.nz/file/ALQ0CJLS#le_alDC-JiSp-TAgUPnmLVWbBwDzCg2_UkV5ahU6q_o"
+   },
+   {
+      "id": 3135433,
+      "title": "part-7 prepared statement in JDBC",
+      "duration": "41m",
+      "url": "https://mega.nz/file/sbZ2lL6J#OpD-ff9zvW0XMNjsr3o8TRR2zHfE4j9eI8OxQ4itibw"
+   },
+   {
+      "id": 3135434,
+      "title": "part-8 callable statement in JDBC",
+      "duration": "33m",
+      "url": "https://mega.nz/file/BOQCkTKb#mujO62c1X3-WrLaa4M7DWEo4cpYMRGJhedVW9Jzw1yk"
+   },
+   {
+      "id": 3135435,
+      "title": "part-9 Types of Result Set",
+      "duration": "5m",
+      "url": "https://mega.nz/file/sXZGjLjC#UEQzYx4FDlU0xAYDulAYNmmNiU9OeAZcTiw91Hf62kc"
+   },
+   {
+      "id": 3135436,
+      "title": "part-10 system properties",
+      "duration": "25m",
+      "url": "https://mega.nz/file/NaBmxBTC#-Ox7MgU_1GCaU9phyOvL6-xLX_6Y8Sy3tC4ke6hw4s4"
+   },
+   {
+      "id": 3135437,
+      "title": "part-11 JDBC Driver Types",
+      "duration": "11m",
+      "url": "https://mega.nz/file/EPYCjbIY#xk23tsRDZ06RTGUm0X4rfNgjfEhB3HIzjk5aPtEm_e0"
+   },
+   {
+      "id": 3135439,
+      "title": "part-12 java.sql package",
+      "duration": "12m",
+      "url": "https://mega.nz/file/0KZA2TaD#_xBn5avBdRBtGAUdLkoAVH5rSqb_t7y-m-6IJ2O0NZA"
+   },
+   {
+      "id": 3135440,
+      "title": "part-13 Introduction to Web applications",
+      "duration": "51m",
+      "url": "https://mega.nz/file/xDIkUZKZ#zvoWuzm6Bg0n6yf6V1LD70WfAmhERAz_w0UMrhO5rRA"
+   },
+   {
+      "id": 3135441,
+      "title": "part-14 project setup for Web applications",
+      "duration": "21m",
+      "url": "https://mega.nz/file/kHBiFBLa#VGVu3kXoObuwARDyFK7MkBfAEVVo2-qnACRc9vDH3no"
+   },
+   {
+      "id": 3135442,
+      "title": "part-15 servlet and servlets lifecycle",
+      "duration": "8m",
+      "url": "https://mega.nz/file/RCAGWJAY#N-NgGbSNhP5pczZE5kXi_QfJkJsGmZ2zshLGT-TJaKg"
+   },
+   {
+      "id": 3135443,
+      "title": "part-16 Create First servlet project",
+      "duration": "1h 12m",
+      "url": "https://mega.nz/file/NaJmDbwA#8HxMTI852sC9Y1-rPP0xoALO1q6CplcF8B3wgY4XHSk"
+   },
+   {
+      "id": 3135444,
+      "title": "part-17 servlet Examples",
+      "duration": "26m",
+      "url": "https://mega.nz/file/BGJCXBIa#2wqfw9IR2me0nZczkHwXuGE5OS9CRbTAXkXTVbYXcJc"
+   },
+   {
+      "id": 3135445,
+      "title": "part-18 Database connectivit in servlets",
+      "duration": "52m",
+      "url": "https://mega.nz/file/leJ0hbpa#HotqAe6OGBqYiE43MhlOsTDapB-TxZehQMsdXFVDMQ8"
+   },
+   {
+      "id": 3135446,
+      "title": "part-19 Registration and login with servlets",
+      "duration": "1h 9m",
+      "url": "https://mega.nz/file/NaIyhbBQ#fXWdjzO2O4FDH7zwjI1uFVO2trtaSLdP9JUd9Cxwmh4"
+   },
+   {
+      "id": 3135447,
+      "title": "part-20 sending parameters to servlets",
+      "duration": "1h 2m",
+      "url": "https://mega.nz/file/oTAWmDpA#HM7PKQnvlISoFUBjoBQNnp1dnW2OG0zLbIp0G_j53-o"
+   },
+   {
+      "id": 3135448,
+      "title": "part-21 JSP Introduction",
+      "duration": "24m",
+      "url": "https://mega.nz/file/5PRSSBiT#GUY4-rLZAS6rJl8EaBnNVOLFzs_kFIyimOLu9rj1QAM"
+   },
+   {
+      "id": 3135449,
+      "title": "part-22 JSP Elements",
+      "duration": "17m",
+      "url": "https://mega.nz/file/tHIWSZZY#oWSs7uFSVLss3R975R38Ba8FHYMksuuNEeaW921KRW4"
+   },
+   {
+      "id": 3135450,
+      "title": "part-23 JSP Declarations",
+      "duration": "14m",
+      "url": "https://mega.nz/file/xPAQkTJL#_pyLnSVBIlqAkxeThkstWeOQBR_zfBNob81NVdXDhE4"
+   },
+   {
+      "id": 3135451,
+      "title": "part-24 JSP Expressions",
+      "duration": "14m",
+      "url": "https://mega.nz/file/hOY23Bpa#yXYyKrnpI7d7TX2pLMUnPs87U46EEUFPlT0woyUihzI"
+   },
+   {
+      "id": 3135452,
+      "title": "part-25 JSP Directives",
+      "duration": "41m",
+      "url": "https://mega.nz/file/wKZwSTQR#4Kj4BzxN-qNyvKBSGEc4iOmKa7DTmoi1ZkomGHVFBZc"
+   },
+   {
+      "id": 3135453,
+      "title": "part-26 java Beans",
+      "duration": "36m",
+      "url": "https://mega.nz/file/VSJAgBRS#kSKRMAYgJSVJopSSFboMAZYM6udXJ2uTbjRftvDyMX4"
+   },
+   {
+      "id": 3135454,
+      "title": "part-27 JSP Action Tags",
+      "duration": "33m",
+      "url": "https://mega.nz/file/VKJWzJaA#OEmbRkcUm5mfhJX-Ri8sZ9y0MMmAeONL9IGfDDtGqKg"
+   },
+   {
+      "id": 3135455,
+      "title": "part-28 JSP Custom tags",
+      "duration": "29m",
+      "url": "https://mega.nz/file/tLBUTLqa#rsWg1uh4Lhi6etlYIj6iy37Dq2NGbB56VeaZhv0f72I"
+   },
+   {
+      "id": 3135456,
+      "title": "part-29 JSP Implicit Variables",
+      "duration": "19m",
+      "url": "https://mega.nz/file/hGQkGRJI#tYeG5-WdXuDbls5DsYPWZv7ICDUU2SJttUH856UWYKc"
+   },
+   {
+      "id": 3135457,
+      "title": "part-30 state managment in web application",
+      "duration": "1h 22m",
+      "url": "https://mega.nz/file/MSYUSDTD#d4Gm7N-m8hdBeqZJ5KOhYc_iChXtPwVBNVKG-caWi9Q"
+   }
+]
