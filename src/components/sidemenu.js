@@ -7,28 +7,13 @@ import {
    ListItem,
    ListItemText,
    ListItemIcon,
-   Divider
-} from '@material-ui/core';
-import clsx from 'clsx';
-import { makeStyles } from '@material-ui/core/styles';
+   Divider,
+   Box
+} from '@mui/material';
 import { Link } from 'react-router-dom';
 import dataArray from '../localData/sidenavlinks.json';
 
-const useStyles = makeStyles((theme) => ({
-   list: {
-      width: 250,
-   },
-   fullList: {
-      width: 'auto',
-   },
-   paper: {
-      backgroundColor: '#424242'
-   }
-}));
-
 const Sidenav = () => {
-   const classes = useStyles();
-
    const [state, setState] = React.useState({
       left: false,
    });
@@ -42,24 +27,24 @@ const Sidenav = () => {
    };
 
    const list = (anchor) => (
-      <div
-         className={clsx(classes.list, {
-            [classes.fullList]: anchor === 'top' || anchor === 'bottom',
-         })}
+      <Box
+         sx={{ 
+            width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 
+         }}
          role="presentation"
          onClick={toggleDrawer(anchor, false)}
          onKeyDown={toggleDrawer(anchor, false)}
       >
-         <div>
+         <Box>
             <IconButton variant="contained" onClick={toggleDrawer("left", false)}>
                <Icon>close</Icon>
             </IconButton>
-         </div>
+         </Box>
          <Divider />
          <List>
             {dataArray.map((data) => (
                <Link to={data.route} key={data.id} style={{ textDecoration: 'none' }}>
-                  <ListItem button key={data.id}>
+                  <ListItem component="div" key={data.id}>
                      <ListItemIcon>
                         <Icon>{data.icon}</Icon>
                      </ListItemIcon>
@@ -68,19 +53,28 @@ const Sidenav = () => {
                </Link>
             ))}
          </List>
-      </div>
+      </Box>
    );
 
    return (
       <div>
-         <IconButton edge="start" className={classes.menuButton} onClick={toggleDrawer("left", true)} color="inherit" aria-label="menu">
+         <IconButton 
+            edge="start" 
+            sx={{ mr: 3 }} 
+            onClick={toggleDrawer("left", true)} 
+            color="inherit" 
+            aria-label="menu"
+         >
             <Icon>menu</Icon>
          </IconButton>
          <Drawer
             anchor="left"
             open={state["left"]}
-            classes={{ paper: classes.paper }}
-            onClose={toggleDrawer("left", false)}>
+            PaperProps={{
+               sx: { backgroundColor: '#424242' }
+            }}
+            onClose={toggleDrawer("left", false)}
+         >
             {list("left")}
          </Drawer>
       </div>

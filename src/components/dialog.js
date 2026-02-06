@@ -8,23 +8,16 @@ import {
   DialogContent,
   DialogContentText,
   DialogTitle
-} from '@material-ui/core';
-import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
+} from '@mui/material';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    backgroundColor: '#454545'
-  }
-}))
-
-const theme = createMuiTheme({
+const theme = createTheme({
   typography: {
     fontFamily: 'Poppins'
   }
 });
 
 export default function AlertDialog() {
-  const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -44,16 +37,18 @@ export default function AlertDialog() {
         <Dialog
           open={open}
           onClose={handleClose}
-          classes={{ paper: classes.paper }}
+          PaperProps={{
+            sx: { backgroundColor: '#454545' }
+          }}
           aria-labelledby="title"
           aria-describedby="description"
         >
           <DialogTitle id="title">{"Disclaimer"}</DialogTitle>
           <DialogContent>
-            <DialogContentText id="description" style={{ color: '#fff',fontSize:'14px' }}>
+            <DialogContentText id="description" sx={{ color: '#fff', fontSize: '14px' }}>
               This Application provides various resources to Learn and Upgrade technical skills. The content in this application belongs to original content creators.
             </DialogContentText>
-            <DialogContentText id="description" style={{ color: '#fff',fontSize:'14px' }}>
+            <DialogContentText id="description" sx={{ color: '#fff', fontSize: '14px' }}>
               This is beta version of application.
             </DialogContentText>
           </DialogContent>

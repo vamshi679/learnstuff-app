@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/nav';
 import Section1 from './components/section1';
 import Javacourse from './pages/javacourse';
 import Advjava from './pages/advjava';
-import pythoncourse from './pages/pythoncourse';
+import Pythoncourse from './pages/pythoncourse';
 import Djangocourse from './pages/djangocourse';
 import Csscourse from './pages/css';
 import JavaScriptC from './pages/javascriptcourse';
@@ -18,15 +18,15 @@ const App = () => {
     <div>
       <Router>
         <Nav />
-        <Switch>
-          <Route path="/" exact component={Section1} />
-          <Route path="/java" component={Javacourse} />
-          <Route path="/advjava" component={Advjava} />
-          <Route path="/js" component={JavaScriptC} />
-          <Route path="/python" component={pythoncourse} />
-          <Route path="/django" component={Djangocourse} />
-          <Route path="/css" component={Csscourse} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Section1 />} />
+          <Route path="/java" element={<Javacourse />} />
+          <Route path="/advjava" element={<Advjava />} />
+          <Route path="/js" element={<JavaScriptC />} />
+          <Route path="/python" element={<Pythoncourse />} />
+          <Route path="/django" element={<Djangocourse />} />
+          <Route path="/css" element={<Csscourse />} />
+        </Routes>
       </Router>
     </div>
   );

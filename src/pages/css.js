@@ -6,7 +6,6 @@ import {
    // CardActionArea,
    Container,
    Icon,
-   Box,
    Grid,
    // Hidden,
    Breadcrumbs,
@@ -17,31 +16,11 @@ import {
    ListItem,
    ListItemText,
    ListItemIcon
-} from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+} from '@mui/material';
 // import { Link } from 'react-router-dom';
 import '../App.css';
 
-const useStyles = makeStyles((theme) => ({
-   cardStyle: {
-      backgroundColor: '#424242',
-      color: 'white',
-      marginTop: '10px',
-      marginBottom: '10px',
-      fontSize: '14px',
-      paddingTop: '0px',
-      paddingBottom: '0px',
-   },
-   anchorStyle: {
-      textDecoration: 'none'
-   },
-   contentStyle: {
-      paddingBottom: '0px'
-   }
-}))
-
 const JavaScriptC = () => {
-   const classes = useStyles();
    var websiteLinks = [...cssData[0]];
    var youtubeLinks = [...cssData[1]];
 
@@ -52,8 +31,8 @@ const JavaScriptC = () => {
    )
 
    const navigation = (
-      <Breadcrumbs style={{ marginTop: '10px' }} aria-label="breadcrumb">
-         <Link color="inherit" to="/" href="/" style={{ textDecoration: 'none' }}>
+      <Breadcrumbs sx={{ marginTop: '10px' }} aria-label="breadcrumb">
+         <Link color="inherit" href="/" style={{ textDecoration: 'none' }}>
             Home
          </Link>
          <Typography color="inherit">css</Typography>
@@ -65,7 +44,7 @@ const JavaScriptC = () => {
          return (
             <List key={data.id} component="nav">
                <Link href={data.url} underline="none">
-                  <ListItem button >
+                  <ListItem component="div">
                      <ListItemIcon>
                         <Icon>link</Icon>
                      </ListItemIcon>
@@ -81,7 +60,7 @@ const JavaScriptC = () => {
          return (
             <List key={data.id} component="nav">
                <Link href={data.url} underline="none">
-                  <ListItem button >
+                  <ListItem component="div">
                      <ListItemIcon>
                         <Icon>link</Icon>
                      </ListItemIcon>
@@ -94,33 +73,49 @@ const JavaScriptC = () => {
    )
 
    const mainLinks = (
-      <Grid item xs={12} sm={6} md={7}>
+      <>
          <h2 className="ml-2">Websites to Learn css</h2>
-         <Card className={classes.cardStyle}>
-            <CardContent style={{ paddingBottom: '0px', paddingTop: '0px' }}>
+         <Card sx={{
+            backgroundColor: '#424242',
+            color: 'white',
+            marginTop: '10px',
+            marginBottom: '10px',
+            fontSize: '14px'
+         }}>
+            <CardContent sx={{ paddingBottom: '0px', paddingTop: '0px' }}>
                {Links}
             </CardContent>
          </Card>
          <h2 className="ml-2">Youtube Links</h2>
-         <Card className={classes.cardStyle}>
-            <CardContent style={{ paddingBottom: '0px', paddingTop: '0px' }}>
+         <Card sx={{
+            backgroundColor: '#424242',
+            color: 'white',
+            marginTop: '10px',
+            marginBottom: '10px',
+            fontSize: '14px'
+         }}>
+            <CardContent sx={{ paddingBottom: '0px', paddingTop: '0px' }}>
                {yLinks}
             </CardContent>
          </Card>
-      </Grid>
+      </>
    )
 
    const moreLinks = (
-      <Grid item xs={12} sm={6} md={5}>
-         <Card className={classes.cardStyle}>
-            <CardContent>
-               <h1>
-                  <span className="PrimaryColor">Cascading Style Sheet</span>
-               </h1>
-               <p>(CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
-            </CardContent>
-         </Card>
-      </Grid>
+      <Card sx={{
+         backgroundColor: '#424242',
+         color: 'white',
+         marginTop: '10px',
+         marginBottom: '10px',
+         fontSize: '14px'
+      }}>
+         <CardContent>
+            <h1>
+               <span className="PrimaryColor">Cascading Style Sheet</span>
+            </h1>
+            <p>(CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
+         </CardContent>
+      </Card>
    )
 
    return (
@@ -129,12 +124,12 @@ const JavaScriptC = () => {
             {header}
             {navigation}
             <Grid container spacing={3}>
-               <Box clone order={{ xs: 2, sm: 1 }}>
+               <Grid item xs={12} sm={6} md={7} sx={{ order: { xs: 2, sm: 1 } }}>
                   {mainLinks}
-               </Box>
-               <Box clone order={{ xs: 1, sm: 2 }}>
+               </Grid>
+               <Grid item xs={12} sm={6} md={5} sx={{ order: { xs: 1, sm: 2 } }}>
                   {moreLinks}
-               </Box>
+               </Grid>
             </Grid>
          </Container>
       </div>
